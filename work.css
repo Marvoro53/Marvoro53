@@ -1,0 +1,17 @@
+*{
+    text-align: center;
+}
+h3{
+    color: blue;
+    text-shadow: black 1px 1px 1px;
+}
+iframe{
+    width: 100%;
+    height:500px;
+    border: solid black 3px;
+    box-shadow: blue 2px 2px 2px;
+}
+body{
+    background-image: url("https://images7.alphacoders.com/333/thumb-350-333580.jpg");
+    background-size: cover;
+}
