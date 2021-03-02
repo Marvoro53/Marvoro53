@@ -150,3 +150,18 @@ a {
         padding: 2em 2.5em;
   }
 }
+
+
+li {
+  display: inline;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  display: inline-block;
+  padding: 10px;
+  background-color: #dddddd;
+}
