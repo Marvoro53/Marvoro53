@@ -1,3 +1,6 @@
+What's up 👨‍💻! I'm
+Marvin, a current Web Deeloper student at Emmily Griffith!
+
 Here are my live github stats!
 
 [![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=Marvoro53&count_private=true&theme=tokyonight&showicons=true)]()
