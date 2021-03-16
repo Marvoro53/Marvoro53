@@ -1,5 +1,5 @@
 What's up 👨‍💻! I'm
-Marvin, a current Web Deeloper student at Emmily Griffith!
+Marvin, a current Web Developer student at Emmily Griffith!
 
 Here are my live github stats!
 
