@@ -1,28 +1,55 @@
-*{
+/*headings paras*/
+p{
+    color: white;
     text-align: center;
-    color: black;
-    text-shadow: white 2px 2px 2px;
 }
-body{
-    background-image: url("https://cdn.statically.io/img/hdqwalls.com/wallpapers/anime-city-hd-zt.jpg");
-    background-size: cover;
+h1{
+    color: white;
+    text-align: center;
+}
+/*section1*/
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
 }
 
-li {
-    display: inline;
-  }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  a {
-    display: inline-block;
-    padding: 10px;
-    background-color: #dddddd;
-  }
-  img{
-      height: 400px;
-      width: 300px;
-  }
-  
+.S1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("images/fbpfp.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    background-color: black;
+}
+.pone{
+    text-align: center;
+    color: white;
+}
+.hone{
+    text-align: center;
+    color: white;
+}
+/*section2*/
+.S2{
+    margin-top: 20px;
+    border: solid 5px red;
+}
+/*section3*/
+.S3{
+    margin-top: 20px;
+    border: solid blue 5px;
+}
+/*footer*/
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(220, 199, 143);
+    color: white;
+    text-align: center;
+}
