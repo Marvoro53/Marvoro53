@@ -12,12 +12,17 @@
 <body>
 
   <!--HEADER-->
-  <header>
-    <h2>I'm Marvin</h2>
-    <h3>And I'm a Web Developer.</h3>
+  <header id="home">
+    <ul>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">My Work</a></li>
+      <li><a href="#more">More About me</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </header>
   <!--ABOUT-->
-  <section class="introduction-section">
+  <section class="introduction-section" id="about">
     <div class="container">
       <h1>Introduction</h1>
       <p>Hello, My name is Marvin, and i am a <strong>Starting Developer</strong> and currently an student at <a
@@ -33,7 +38,7 @@
     </div>
   </section>
 
-  <section class="location-section">
+  <section class="location-section" id="contact">
     <div class="container">
       <h1>Where I'm From</h1>
       <p>
@@ -46,7 +51,41 @@
     </div>
   </section>
 
-  <section class="questions-section">
+  <section class="work-section" id="work">
+    <div class="container">
+      <h2 class="big-heading">These are some of my projects.</h2>
+      <hr>
+
+      <div class="project-tile">
+        <div class="project">
+          <a href="https://marvoro53.github.io/JS-Trivia-Game/" target="_blank">
+            <div class="project-link">
+              <img class="product-img" src="images/trivia.png"
+                alt="technical-documentation-img">
+            </div>
+            <div class="project-description">
+              <h3 class="project-heading"><span class="coding">
+                  < </span>Basic Trivia Game<span class="coding"> /></span></h3>
+            </div>
+          </a>
+        </div>
+
+        <div class="project">
+          <a href="https://marvoro53.github.io/Final.Project/" target="_blank">
+            <div class="project-link">
+              <img class="product-img"
+                src="images/myDenver.png"
+                alt="product-landing-pade-img">
+            </div>
+            <div class="project-description">
+              <h3 class="project-heading"> <span class="coding">
+                  < </span> My Denver Project <span class="coding"> /></span> </h3>
+            </div>
+          </a>
+        </div>
+  </section>
+
+  <section class="questions-section" id="more">
     <div class="container">
       <h1>More About Me</h1>
       <h2>What are your favorite hobbies?</h2>
